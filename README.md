@@ -1,16 +1,66 @@
-# React + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive currency converter built with React and Vite as part of my FreeCodeCamp certification projects.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Convert between USD, EUR, GBP, and JPY.
+- Enter an amount and select the currencies to convert.
+- Automatically update the converted amount when selections change.
+- Display conversion results to two decimal places.
+- Responsive interface for different screen sizes.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally:
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/Zirwa12/currency-converter.git
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd currency-converter
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## What I Learned
+
+- Building React components.
+- Managing state with `useState`.
+- Optimising calculations with `useMemo`.
+- Handling user input and select elements.
+- Styling a responsive React application.
+
+## Note
+
+The exchange rates used in this project are predefined sample values for demonstration purposes. They are not live exchange rates.
+
+## Author
+
+**Zirwa**
+
+[GitHub Profile](https://github.com/Zirwa12)
